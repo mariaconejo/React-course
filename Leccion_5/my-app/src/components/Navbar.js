@@ -1,33 +1,29 @@
 import React from "react";
-import "../styles.css";
 
 function Navbar() {
     const navbar = {
-        backgroundColor: "var(--background-alt)",
-        borderBottom: "1px var(--border) solid",
-        width: "100%",
+        borderBottom: "1px var(--border) solid", 
+        width: "100%", 
         position: "fixed",
-        top: 0,
+        top: 0, 
         left: 0,
+        background: "var(--background-alt)",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         padding: "16px",
         maxHeight: "40px"
     }
+
     return (
-        <div style={navbar}> {/*asignar estilos con objeto*/}
-            <h2>Student List</h2>
+        <div style={navbar}>
+            <h2>Students List</h2>
         </div>
-    );
+    )
 }
 
+// const style = {
+//     borderB
+// }
 
-
-
-
-
-
-
-
-export default Navbar;
+export default Navbar
